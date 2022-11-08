@@ -11,10 +11,10 @@ function Footer() {
       <Container>
         <Row className="align-item-center">
           <MailchimupForm />
-          <Col sm={6}>
-            <img src={logo} alt="logo" />
+          <Col sm={2}>
+            <h2 className="logo">Aye</h2>
           </Col>
-          <Col sm={6} className="text-center text-sm-end">
+          <Col sm={10} className="text-center text-sm-end">
             <div className="social-icon">
               <a href="">
                 <img src={navIcon1} />

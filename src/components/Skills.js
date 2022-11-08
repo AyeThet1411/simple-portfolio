@@ -3,7 +3,6 @@ import { Container, Col, Row } from "react-bootstrap";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import {
-  CircularProgressbar,
   CircularProgressbarWithChildren,
   buildStyles,
 } from "react-circular-progressbar";
@@ -58,7 +57,7 @@ function Skills() {
           <Col>
             <div className="skill-bx">
               <h2>Skills</h2>
-              <p>lorem</p>
+              <p>---------</p>
               <Carousel
                 responsive={responsive}
                 infinite={true}
